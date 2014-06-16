@@ -20,7 +20,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/sony/fusion3-common/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/fusion3-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/sony/fusion3-common/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/sony/fusion3-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/sony/fusion3-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/sony/fusion3-common/proprietary/bin/ks:system/bin/ks \
     vendor/sony/fusion3-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/fusion3-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -86,15 +88,17 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/sony/fusion3-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/sony/fusion3-common/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
-    vendor/sony/fusion3-common/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
+    vendor/sony/fusion3-common/proprietary/lib/hw/vendor-camera.qcom.so:system/lib/hw/vendor-camera.qcom.so \
     vendor/sony/fusion3-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/fusion3-common/proprietary/lib/hw/keystore.qcom.so:system/lib/hw/keystore.qcom.so \
     vendor/sony/fusion3-common/proprietary/lib/hw/libdisplay.default.so:system/lib/hw/libdisplay.default.so \
-    vendor/sony/fusion3-common/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
+    vendor/sony/fusion3-common/proprietary/lib/hw/vendor-lights.default.so:system/lib/hw/vendor-lights.default.so \
     vendor/sony/fusion3-common/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/fusion3-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/fusion3-common/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/sony/fusion3-common/proprietary/lib/libals.so:system/lib/libals.so \
+    vendor/sony/fusion3-common/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
+    vendor/sony/fusion3-common/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/sony/fusion3-common/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/sony/fusion3-common/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/fusion3-common/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
@@ -164,6 +168,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/sony/fusion3-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/fusion3-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
+    vendor/sony/fusion3-common/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/sony/fusion3-common/proprietary/lib/libsysmon_idd.so:system/lib/libsysmon_idd.so \
     vendor/sony/fusion3-common/proprietary/lib/libsysmon_jni.so:system/lib/libsysmon_jni.so \
     vendor/sony/fusion3-common/proprietary/lib/libsysmon.so:system/lib/libsysmon.so \
@@ -230,11 +235,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/sony/fusion3-common/proprietary/vendor/lib/liblocationservice.so:system/lib/vendor/lib/liblocationservice.so \
+    vendor/sony/fusion3-common/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
-    vendor/sony/fusion3-common/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so
+    vendor/sony/fusion3-common/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
