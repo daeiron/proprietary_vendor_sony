@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/sony/fusion3-common/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/fusion3-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    vendor/sony/fusion3-common/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/sony/fusion3-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/fusion3-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/sony/fusion3-common/proprietary/bin/ks:system/bin/ks \
